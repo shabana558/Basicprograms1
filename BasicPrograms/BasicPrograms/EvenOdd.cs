@@ -6,15 +6,14 @@ using System.Threading.Tasks;
 
 namespace BasicPrograms
 {
-    internal class Program
+    internal class EvenOdd
     {
-        static void  Main(string[] args)
+        public static void evenodd()
         {
+
             int i;
             Console.Write("Enter a Number : ");
             i = int.Parse(Console.ReadLine());
-
-
             if (i % 2 == 0)
             {
                 Console.Write("Entered Number is an Even Number");
@@ -27,5 +26,4 @@ namespace BasicPrograms
             }
         }
     }
-    }
-
+}

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Biggest.cs" />
+    <Compile Include="EvenOdd.cs" />
     <Compile Include="FlipCoin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
