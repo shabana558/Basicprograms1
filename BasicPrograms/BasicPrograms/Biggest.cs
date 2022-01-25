@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BasicPrograms
 {
-    internal class Program
+    internal class Biggest
     {
-        static void  Main(string[] args)
+        public static void biggest()
         {
             int a = 40;
             int b = 25;
