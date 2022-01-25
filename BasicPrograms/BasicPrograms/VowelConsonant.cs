@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace BasicPrograms
 {
-    internal class Program
+    internal class VowelConsonant
     {
-        static void  Main(string[] args)
+        public static void vowelconsonant()
         {
-
             char ch;
 
             Console.WriteLine("Enter any character: ");
@@ -31,7 +30,5 @@ namespace BasicPrograms
 
             Console.ReadLine();
         }
-        }
     }
-    
-
+}
