@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace BasicPrograms
 {
-    internal class Program
+    internal class QuotientandRemainder
     {
-        static void  Main(string[] args)
-        {
-            int dividend = 50, divisor = 8;
+        public static void quotientandRemainder()
+       {
+        int dividend = 50, divisor = 8;
 
-            int quotient = dividend / divisor;
-            int remainder = dividend % divisor;
+        int quotient = dividend / divisor;
+        int remainder = dividend % divisor;
 
-            Console.WriteLine("Dividend:{0} Divisor:{1}", dividend, divisor);
+        Console.WriteLine("Dividend:{0} Divisor:{1}", dividend, divisor);
             Console.WriteLine("Quotient = " + quotient);
             Console.WriteLine("Remainder = " + remainder);
             Console.ReadLine();
