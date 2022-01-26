@@ -10,24 +10,19 @@ namespace BasicPrograms
     {
         static void  Main(string[] args)
         {
+            
+                int firstNum, secondNum, temp = 0;
+                Console.WriteLine("please enter first Number");
+                firstNum = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("please enter second Number");
+                secondNum = Convert.ToInt32(Console.ReadLine());
 
-            int i, n;
-            double s = 0.0;
-
-            Console.Write("\n\n");
-            Console.Write("Calculate the harmonic series and their sum:\n");
-            Console.Write("----------------------------------------------");
-            Console.Write("\n\n");
-
-            Console.Write("Input the number of terms : ");
-            n = Convert.ToInt32(Console.ReadLine());
-            Console.Write("\n\n");
-            for (i = 1; i <= n; i++)
-            {
-                Console.Write("1/{0} + ", i);
-                s += 1 / (float)i;
-            }
-            Console.Write("\nSum of Series upto {0} terms : {1} \n", n, s);
+                Console.WriteLine("Before exchanging values: first={0},second={1}", firstNum, secondNum);
+                temp = firstNum;
+                firstNum = secondNum;
+                secondNum = temp;
+                Console.WriteLine("After exchanging values:first={0},second={1}", firstNum, secondNum);
+            
         }
         }
     }

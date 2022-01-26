@@ -28,5 +28,6 @@ namespace BasicPrograms
             }
             Console.Write("\nSum of Series upto {0} terms : {1} \n", n, s);
         }
+        }
     }
-}
+
