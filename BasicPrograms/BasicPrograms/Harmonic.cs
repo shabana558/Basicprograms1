@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace BasicPrograms
 {
-    internal class Program
+    internal class Harmonic
     {
-        static void  Main(string[] args)
+        public static void harmonic()
         {
-
             int i, n;
             double s = 0.0;
 
@@ -29,7 +28,5 @@ namespace BasicPrograms
             }
             Console.Write("\nSum of Series upto {0} terms : {1} \n", n, s);
         }
-        }
     }
-    
-
+}
