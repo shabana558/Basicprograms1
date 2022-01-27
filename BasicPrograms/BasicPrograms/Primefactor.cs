@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace BasicPrograms
 {
-    internal class Program
+    internal class Primefactor
     {
-        static void  Main(string[] args)
+        public static void primefactor()
         {
-
             int num = 186;
             int i, j;
             int count = 0;
@@ -40,7 +39,5 @@ namespace BasicPrograms
             if (flag == 0)
                 Console.Write("There is no Prime factor for {0} ", num);
         }
-        }
     }
-    
-
+}
